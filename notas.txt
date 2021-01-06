@@ -1,0 +1,3 @@
+$ emulator -avd Pixel_2_API_28    // para abrir el emulador de android
+$ adb devices -l  // lista los dispositivos android conectados
+$ emulator -list-avds // lista los emuladores android
