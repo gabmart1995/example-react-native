@@ -7,8 +7,8 @@ const styles = StyleSheet.create({
     borderBottomColor: '#e1e1e1',
     borderStyle: 'solid',
     borderBottomWidth: 1,
-    paddingVertical: 20,
-    paddingHorizontal: 10 
+    paddingVertical: 15,
+    paddingHorizontal: 20 
   },
   label: {
     fontWeight: 'bold',
@@ -19,9 +19,11 @@ const styles = StyleSheet.create({
     fontSize: 18
   },
   btnEliminar: {
+    marginTop: 20,
+    marginBottom: 10,
     padding: 10,
     backgroundColor: 'red',
-    marginVertical: 10
+    borderRadius: 5
   },
   textDelete: {
     color: '#fff',
