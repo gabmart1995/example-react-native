@@ -44,6 +44,7 @@ export class Formulario extends Component {
   constructor( props ) {
     super(props);
 
+    // todo se almacena en un unico estado
     this.state = {
       isPickerVisible: false,
       isTimerVisible: false,

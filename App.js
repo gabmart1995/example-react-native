@@ -1,8 +1,8 @@
 import React from 'react';
-import { AppCitas } from './components/App-Citas';
+import { App_crypto } from './components/criptomonedas/App_crypto';
 
-
-
-const App = () => ( <AppCitas /> );
+const App = () => ( 
+    <App_crypto />
+ );
 
 export default App;
